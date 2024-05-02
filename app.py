@@ -66,8 +66,9 @@ def predict():
     # Extract the label and percentage from the prediction dictionary
     label, percentage = list(prediction.items())[0]
 
-    # Construct the desired output format
-    output = f'{label}: {percentage:.4f}%'
+
+    # output = f'{label}: {percentage:.4f}%'
+    output = f'{label}'
 
     return jsonify({"Predictions": output})
 
