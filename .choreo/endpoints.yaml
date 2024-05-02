@@ -7,3 +7,4 @@ endpoints:
   port: 9090
   type: REST
   networkVisibility: Public
+  context: /predict
