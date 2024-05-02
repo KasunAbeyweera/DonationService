@@ -3,7 +3,7 @@ info:
   title: Donation Prediction API
   description: API for predicting donation requests
   version: 1.0.0
-host:
+host: localhost:9090
 basePath: /
 schemes:
   - http
