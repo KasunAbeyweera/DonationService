@@ -8,4 +8,4 @@ endpoints:
   type: REST
   networkVisibility: Public
   context: /predict
-  schemaFilePath: DonationService.yaml
+  schemaFilePath: /DonationService.yaml
