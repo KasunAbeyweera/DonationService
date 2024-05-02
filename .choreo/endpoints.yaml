@@ -1,0 +1,9 @@
+
+version: 0.1
+
+
+endpoints:
+- name: Donation Service
+  port: 9090
+  type: REST
+  networkVisibility: Public
